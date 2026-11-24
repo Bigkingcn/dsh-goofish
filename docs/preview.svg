@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <!-- 闲鱼监控功能图：左边是一台本机上的服务，右边是面板里的任务与结果卡片。无文字，明暗主题都可读。 -->
+  <rect width="640" height="300" fill="#F5F6FC"/>
+  <rect x="24" y="32" width="180" height="236" rx="14" fill="#FFFFFF" stroke="#DFE4EF"/>
+  <rect x="40" y="48" width="148" height="10" rx="5" fill="#DFE4EF"/>
+  <rect x="40" y="70" width="96" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="40" y="92" width="148" height="56" rx="10" fill="#4D6BFE" fill-opacity="0.10"/>
+  <path d="M62 120c9-12 19-18 31-18s22 6 31 18c-9 12-19 18-31 18s-22-6-31-18Z" fill="#4D6BFE" fill-opacity="0.25" stroke="#4D6BFE" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M62 120 50 131v-22l12 11Z" fill="#4D6BFE"/>
+  <circle cx="88" cy="116" r="3" fill="#4D6BFE"/>
+  <circle cx="56" cy="176" r="6" fill="#3FBF7F"/>
+  <rect x="72" y="171" width="92" height="10" rx="5" fill="#EAEEF7"/>
+  <rect x="40" y="198" width="148" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="40" y="216" width="118" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="40" y="234" width="134" height="8" rx="4" fill="#EAEEF7"/>
+  <path d="M212 150h32" stroke="#B9C2D8" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M240 143l10 7-10 7" fill="none" stroke="#B9C2D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="252" y="32" width="364" height="236" rx="14" fill="#FFFFFF" stroke="#DFE4EF"/>
+  <rect x="272" y="50" width="70" height="20" rx="10" fill="#4D6BFE"/>
+  <rect x="352" y="50" width="70" height="20" rx="10" fill="#EAEEF7"/>
+  <rect x="432" y="50" width="70" height="20" rx="10" fill="#EAEEF7"/>
+  <rect x="512" y="50" width="70" height="20" rx="10" fill="#EAEEF7"/>
+  <rect x="272" y="88" width="324" height="44" rx="10" fill="#F5F7FC" stroke="#EAEEF7"/>
+  <rect x="284" y="98" width="56" height="24" rx="6" fill="#DFE4EF"/>
+  <rect x="352" y="100" width="120" height="8" rx="4" fill="#C9D2E5"/>
+  <rect x="352" y="114" width="80" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="492" y="100" width="44" height="18" rx="9" fill="#3FBF7F" fill-opacity="0.22"/>
+  <rect x="544" y="100" width="44" height="18" rx="9" fill="#F2B33D" fill-opacity="0.28"/>
+  <rect x="272" y="140" width="324" height="44" rx="10" fill="#F5F7FC" stroke="#EAEEF7"/>
+  <rect x="284" y="150" width="56" height="24" rx="6" fill="#DFE4EF"/>
+  <rect x="352" y="152" width="140" height="8" rx="4" fill="#C9D2E5"/>
+  <rect x="352" y="166" width="96" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="504" y="152" width="32" height="18" rx="9" fill="#4D6BFE" fill-opacity="0.18"/>
+  <rect x="544" y="152" width="44" height="18" rx="9" fill="#EAEEF7"/>
+  <rect x="272" y="192" width="324" height="60" rx="10" fill="#F5F7FC" stroke="#EAEEF7"/>
+  <rect x="284" y="204" width="36" height="36" rx="8" fill="#DFE4EF"/>
+  <rect x="332" y="206" width="160" height="8" rx="4" fill="#C9D2E5"/>
+  <rect x="332" y="220" width="112" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="332" y="234" width="72" height="8" rx="4" fill="#EAEEF7"/>
+  <rect x="508" y="206" width="76" height="18" rx="9" fill="#4D6BFE" fill-opacity="0.18"/>
+</svg>

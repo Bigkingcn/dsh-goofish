@@ -1,0 +1,7 @@
+# dsh-goofish 的 Loader 行。
+# 用户在自己的 profile 的 cordis.patch.yml 里按 id: goofish 覆盖 config；
+# 覆盖会整体替换 config，所以只写想改的字段时要把其余字段一并抄全（见 README「配置」）。
+- insert:
+    - id: goofish
+      name: dsh-goofish
+      config: {}

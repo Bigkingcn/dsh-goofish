@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Goofish monitor",
+    "description": "Deploy, run, and manage ai-goofish-monitor on this machine: let the model use the goofish_* tools to check service status, create monitoring tasks, and read results, deliver a scheduled digest into one fixed session, and use the management panel (sidebar \"Goofish monitor\" → Overview / Tasks / Results / Accounts / Runtime). Requires Python 3.10+ and Git on this machine; the first install clones the upstream project into projectDir, builds a virtual environment, and downloads Chromium (about 1–1.5 GB). The AI endpoint and model are not plugin configuration: set them on the panel's Runtime page (written to the upstream .env) and keep the key in the DSH credential GOOFISH_OPENAI_API_KEY. While enabled, DSH starts the upstream service on launch and stops it on exit; a scheduled digest creates a new session and spends model tokens. Scraping Goofish violates its user agreement and puts accounts at risk. After you turn the plugin off, the service no longer starts automatically and the digest must be removed on the panel first.",
+    "detail": "docs/DETAIL.md"
+  }
+}

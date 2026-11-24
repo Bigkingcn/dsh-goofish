@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+  <!-- 闲鱼监控：一只带价签的鱼 + 放大镜。原创绘制，无外部资源，明暗主题下都可读。 -->
+  <rect x="1" y="1" width="34" height="34" rx="9" fill="#4D6BFE" fill-opacity="0.10"/>
+  <path d="M8.5 17.5c2.6-3.4 5.6-5 9-5s6.4 1.6 9 5c-2.6 3.4-5.6 5-9 5s-6.4-1.6-9-5Z" fill="#4D6BFE" fill-opacity="0.22" stroke="#4D6BFE" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M8.5 17.5 5 21v-7l3.5 3.5Z" fill="#4D6BFE"/>
+  <circle cx="16.2" cy="16.4" r="1.15" fill="#4D6BFE"/>
+  <circle cx="25.4" cy="24" r="5.1" stroke="#4D6BFE" stroke-width="1.8"/>
+  <path d="M29.2 27.9 32.2 31" stroke="#4D6BFE" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M23.2 22.2h4.4M23.2 25.8h3" stroke="#4D6BFE" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0.85"/>
+</svg>

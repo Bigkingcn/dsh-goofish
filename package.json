@@ -1,0 +1,61 @@
+{
+  "name": "dsh-goofish",
+  "version": "0.1.0",
+  "description": "闲鱼监控 · 在 DSH 里部署、运行和管理 ai-goofish-monitor：对话查货、定时汇报、管理面板。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bigkingcn/dsh-goofish.git"
+  },
+  "homepage": "https://github.com/Bigkingcn/dsh-goofish#readme",
+  "bugs": {
+    "url": "https://github.com/Bigkingcn/dsh-goofish/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./dist/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "src",
+    "dist",
+    "docs",
+    "locale/*.json",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "goofish",
+    "闲鱼"
+  ],
+  "license": "MIT"
+}
